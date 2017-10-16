@@ -1,0 +1,9 @@
+body {
+  background: background-image: url("/assets/ocean.gif");
+  width: 100%;
+}
+
+p {
+  font-size: 80px;
+
+}
