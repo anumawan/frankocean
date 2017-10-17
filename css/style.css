@@ -1,9 +1,38 @@
 body {
-  background: background-image: url("/assets/ocean.gif");
-  width: 100%;
+background-image: url(/Users/anumawan/Documents/GitHub/frankocean/assets/ocean.gif);
+background-repeat: no-repeat;
+background-color: blue;
+cursor: url(/Users/anumawan/Documents/GitHub/frankocean/assets/frankpic.jpg), auto;
 }
 
-p {
-  font-size: 80px;
+#box {
+  width: 80%;
+  height: 50%;
+  margin-top: 40%;
+  cursor: url(/Users/anumawan/Documents/GitHub/frankocean/assets/frankpic.jpg), auto;
+}
 
+#stfu {
+  fill-opacity: 0;
+}
+
+.btn {
+  margin-left: 5%;
+  margin-top: 5%;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-width: 0;
+}
+
+.btn:hover {
+  background: #fc3ce6;
+  text-decoration: none;
+  border-width: 0;
 }
